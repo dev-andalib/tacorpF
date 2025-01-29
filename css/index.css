@@ -4,12 +4,15 @@ body {
     padding: 0;
 }
 
+
+
+/* Nav bar */
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 5%;
-    background: linear-gradient(45deg, #03faa8, #15056d,   #03faa8);
+    background: linear-gradient(45deg,#3f23dac2,  #03faa8, #3f23dac2, #03faa8);
 }
 
 .logo img {
@@ -22,48 +25,150 @@ header {
 nav ul {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 30px;
     
 }
+
 nav ul li {
-    width: 5rem;
-    height:5rem;
-    text-align: center;
-    
+    padding: 1rem 1rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;    
 }
+
 nav ul li a {
     text-decoration: none;
     color: #080130;
     font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+
     
     
 }
-nav ul li a:hover{
-    color: #ffffff; 
+nav ul li:hover {
+    background-color: #0f4c754d;
     transition: all linear 0.3s;
-} 
+}
 
+nav ul li:hover a {
+    color: #e2dada;
+    transition: all linear 0.3s;
+}
+
+main{
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* HERO SECTION */
 .hero {
     text-align: center;
     padding: 100px 20px;
-    background: linear-gradient(45deg, #dff3f7, #bde3d9);
+    background-color: #0f4c75;
     color: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .cta-button {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 12px 24px;
     background-color: white;
-    color: #2D7B3E;
+    color: #2a0e76;
     text-decoration: none;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 8px;
     margin-top: 20px;
+    transition: background 0.3s, color 0.3s;
 }
 
+.cta-button:hover {
+    background-color: #2a0e76;
+    color: white;
+}
+
+/* FEATURE PRODUCTS */
+.feature-products {
+    text-align: center;
+    padding: 60px 5%;
+    background: linear-gradient(45deg, #d4e3fc, #abc8f0);
+    color: #333;
+}
+
+.feature-products h2 {
+    color: #2a0e76;
+}
+
+.product-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+/* TESTIMONIALS */
+.testimonials {
+    text-align: center;
+    padding: 60px 5%;
+    background: linear-gradient(45deg, #3f23dac2, #03faa8);
+    color: white;
+}
+
+.testimonials h2 {
+    color: white;
+}
+
+.testimonial-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.testimonial-card {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+
+
+
+/* FOOTER */
 footer {
     text-align: center;
     padding: 20px;
-    background: linear-gradient(45deg, #f0f8ff, #d0eaff);
-    color: #333;
+    background: linear-gradient(45deg, #3f23dac2, #022409);
+    color: white;
+    font-weight: bold;
 }
