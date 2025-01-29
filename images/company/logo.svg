@@ -1,8 +1,1 @@
-<svg width="400" height="120" viewBox="0 0 400 120" xmlns="http://www.w3.org/2000/svg">
-    <!-- TA Styled Text -->
-    <text x="20" y="80" font-family="Arial, sans-serif" font-size="70" font-weight="bold" fill="#2D7B3E">T</text>
-    <text x="65" y="80" font-family="Arial, sans-serif" font-size="70" font-weight="bold" fill="#0E4A8A">A</text>
-    
-    <!-- Text "T. A CORPORATION" with Identical Style -->
-    <text x="170" y="80" font-family="Verdana, sans-serif" font-size="70" font-weight="bold" fill="#2D7B3E">T. A CORPORATION</text>
-</svg>
+<svg id="en2ZEgHr5Uc1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 960" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" project-id="536143ec179444d894acbe80d4d49375" export-id="49fd76b063d2451c88b86dced2daf08b" cached="false"><path d="M405.485651,672.888944l22.992414.291929-2.665787,46.708671l5.331574.875788l19.326957-29.776779.333223-18.09961l10.329925-.29193l11.262137-16.752732-64.067684,1.690607-2.84276,15.354056Z" transform="matrix(7.503604-.086726 0.123874 10.717693-2989.814792-6846.411393)" fill="#000f72" stroke="#001a4f" stroke-width="2.56"/><path d="M434.794988,719.889549h14.431981l26.373489-47.292531-7.100555-15.062126-33.704915,62.354657Z" transform="matrix(11.741217-.002033 0.002019 11.656088-4717.388816-7546.764507)" fill="#0c7405" stroke="#09751b" stroke-width="2.56"/><path d="M454.237828,719.889549h44.693024l-19.272934-41.391114-11.158015,16.567961l7.100555,7.438676h-11.496136l-9.866494,17.384477Z" transform="matrix(11.875592-.148731 0.151054 12.061046-4900.270423-7741.926426)" fill="#0c7405" stroke="#09751b" stroke-width="2.56"/></svg>
