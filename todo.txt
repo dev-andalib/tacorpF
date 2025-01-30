@@ -1,1 +1,3 @@
-box highlighting for nax menu btns
+for feature products
+    on sale
+    best selling
