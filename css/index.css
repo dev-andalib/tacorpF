@@ -4,8 +4,8 @@
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+   
   }
-
 
 
 
@@ -71,8 +71,8 @@ main{
     background: linear-gradient(45deg, #579e86 60%, #ffffff94 40%);
     margin-top: 3rem;
     padding: 2rem;
-    box-shadow: 0 0 50px 20px rgba(3, 250, 168, 0.5)
-
+    box-shadow: 0 0 50px 20px rgba(3, 250, 168, 0.5);
+    border-radius: 10px;
 }
 
 
@@ -179,6 +179,7 @@ main{
   color: #333;
   margin: 100px 0;
   font-family: "Arial", sans-serif; 
+  border-radius: 10px;
 
 }
 
@@ -267,6 +268,7 @@ main{
     margin-bottom: 30px;
     max-width: 1200px;
     padding: 20px 40px 40px 40px;
+    border-radius: 10px;
 }
 
 .testimonials h2 {
