@@ -173,43 +173,87 @@ main{
 
 /* TRENDING PRODUCTS */
 .feature-products {
-    text-align: center;
-    padding: 60px 5%;
-    background: linear-gradient(45deg, #d4e3fc, #abc8f0);
-    color: #333;
+  text-align: center;
+  padding: 30px 30px;
+  background: radial-gradient(circle, #0919ff, #abc8f06e, #0919ff, #90b0dd, #0919ff, #7487a16e, #0919ff);
+  color: #333;
+  margin: 100px 0;
+  font-family: "Arial", sans-serif; 
+
 }
 
 .feature-products h2 {
-    color: #2a0e76;
+  
+  margin-bottom: 30px;
+  font-size: 38px; 
+  font-weight:900;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #00FFFF;
 }
 
 .product-grid {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .product-card {
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    width: 250px;
-    transition: transform 0.3s;
+  background: white;
+  padding: 30px; 
+  border-radius: 10px;
+  text-align: center;
+  width: 340px; 
+  height: 280px; 
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .product-card:hover {
-    transform: translateY(-5px);
+  transform: translateY(-7px);
 }
 
 .product-card img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
+  width: 100%;
+  height: 200px; 
+  object-fit: cover; 
+  border-radius: 10px;
 }
 
+.product-card h3 {
+  font-size: 20px; 
+  font-weight: bold;
+  color: #2a0e76; 
+  margin-top: 15px;
+}
+
+.product-card p {
+  font-size: 16px;
+  color: rgb(90, 90, 90); 
+  margin-top: 10px;
+}
+
+
+.see-more-container {
+  margin-top: 20px;
+}
+
+.see-more-btn {
+  background: #2a0e76;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background 0.3s ease-in-out;
+}
+
+.see-more-btn:hover {
+  background: #9896a0;
+}
 
 
 
@@ -218,30 +262,16 @@ main{
 /* TESTIMONIALS */
 .testimonials {
     text-align: center;
-    padding: 60px 5%;
     background: linear-gradient(45deg, #3f23dac2, #03faa8);
     color: white;
+    margin-bottom: 30px;
+    max-width: 1200px;
+    padding: 20px 40px 40px 40px;
 }
 
 .testimonials h2 {
     color: white;
-}
-
-.testimonial-grid {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.testimonial-card {
-    background: rgba(255, 255, 255, 0.2);
-    padding: 20px;
-    border-radius: 8px;
-    width: 300px;
-    text-align: center;
-    backdrop-filter: blur(5px);
-    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+    margin-bottom: 20px;
 }
 
 
