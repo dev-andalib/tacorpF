@@ -226,31 +226,30 @@ main{
 .product-card h2 {
   font-size: 20px; 
   font-weight: bold;
-  color: #2a0e76; 
+  color: #fd0000;
   margin-top: 5px;  
 }
 
 .product-card h3 {
   font-size: 15px;
-  color: rgb(90, 90, 90); 
+  color: #a80a0a;
   margin-top: 3px;
 }
 
 
 .see-more-container {
-  margin-top: 20px;
+  margin-top: 35px;
 }
 
 .see-more-btn {
-  background: #2a0e76;
-  color: white;
+  background: #f0f0f0;
+  color:  #fc2020;
   font-size: 18px;
   font-weight: bold;
   padding: 15px 30px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  margin-top: 20px;
   transition: background 0.3s ease-in-out;
 }
 
@@ -288,4 +287,5 @@ footer {
     background: linear-gradient(45deg, #3f23dac2, #022409);
     color: white;
     font-weight: bold;
+    
 }
