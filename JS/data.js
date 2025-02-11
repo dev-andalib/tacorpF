@@ -35,7 +35,7 @@ const product = {
   },
 
   "20kg/1g": {
-    name: "10kg/1g",
+    name: "20kg/1g",
     "Brand Name": "",
     Type: "",
     Wheel: "NO",
@@ -47,7 +47,7 @@ const product = {
   },
 
   "30kg/1g": {
-    name: "10kg/1g",
+    name: "30kg/1g",
     "Brand Name": "",
     Type: "",
     Wheel: "NO",
@@ -140,7 +140,7 @@ const product = {
   },
 
   "100kg/10gMS": {
-    name: "10kg/1g",
+    name: "100kg/10g MS",
     "Brand Name": "",
     Type: "MS",
     Wheel: "NO",
@@ -178,7 +178,7 @@ const product = {
   },
 
   "150kg/10gMS": {
-    name: "100kg/10g SS",
+    name: "100kg/10g MS",
     "Brand Name": "",
     Type: "MS",
     Wheel: "",
@@ -201,7 +201,7 @@ const product = {
   },
 
   "250kg/20gMS": {
-    name: "100kg/10g SS",
+    name: "250kg/20g MS",
     "Brand Name": "",
     Type: "MS",
     Wheel: "",
@@ -212,7 +212,7 @@ const product = {
     "number sold": 10,
   },
   "250kg/20gSS": {
-    name: "100kg/10g SS",
+    name: "250kg/20g SS",
     "Brand Name": "",
     Type: "SS",
     Wheel: "",
@@ -249,7 +249,7 @@ const product = {
   },
 
   "500kg/50gMS": {
-    name: "100kg/10g SS",
+    name: "500kg/50g MS",
     "Brand Name": "",
     Type: "MS",
     Wheel: "YES",
@@ -260,7 +260,7 @@ const product = {
     "number sold": 10,
   },
   "500kg/50gSS": {
-    name: "100kg/10g SS",
+    name: "500kg/50g SS",
     "Brand Name": "",
     Type: "SS",
     Wheel: "NO",

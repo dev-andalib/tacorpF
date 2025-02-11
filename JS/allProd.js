@@ -88,10 +88,11 @@ function getProducts(searchlist) {
 
 let productGrid = document.getElementsByClassName("product-grid")[0];
 function displayFeaturedProd(query) {
+  productGrid.innerHTML = "";
   query.forEach((productKey) => {
     let currentProduct = product[productKey];
     let productCard = document.createElement("a");
-    productCard.href = "#";
+    productCard.href = '#';
     productCard.innerHTML = `<div class="product-card">
           <img src=".${currentProduct["Picture Path"]}" alt="${productKey}" />
           <h2>${currentProduct["name"]}</h2>
@@ -135,7 +136,7 @@ function displayAllProd() {
   for (let productKey in product) {
     let currentProduct = product[productKey];
     let productCard = document.createElement("a");
-    productCard.href = "#";
+    productCard.href = `../html/product_detail.html?productKey=${productKey}`;
     productCard.innerHTML = `<div class="product-card">
             <img src=".${currentProduct["Picture Path"]}" alt="${productKey}" />
             <h2>${currentProduct["name"]}</h2>

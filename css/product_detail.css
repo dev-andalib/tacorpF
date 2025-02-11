@@ -1,0 +1,268 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+
+
+
+/* Nav bar */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    background: linear-gradient(45deg,#3f23dac2,  #03faa8, #3f23dac2, #03faa8);
+}
+
+.logo img {
+    height: 100px;
+}
+.imagefoot{
+    margin: 5px;
+    color: #022409fd;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    
+}
+
+nav ul li {
+    padding: 1rem 1rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #080130;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+
+    
+    
+}
+nav ul li:hover {
+    background-color: #0f4c754d;
+    transition: all linear 0.3s;
+}
+
+nav ul li:hover a {
+    color: #e2dada;
+    transition: all linear 0.3s;
+}
+
+main{
+    width: 60%;
+    margin: 0 auto;
+  }
+    
+
+/* HERO SECTION */
+.hero{
+    text-align: center;
+    background: linear-gradient(45deg, #579e86 60%, #ffffff94 40%);
+    margin-top: 3rem;
+    padding: 2rem;
+    box-shadow: 0 0 50px 20px rgba(3, 250, 168, 0.5);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+
+/* hero: slider */
+.slider-container {
+  position: relative;
+  width: 800px;
+  margin: 0 auto;
+  height: 30rem;
+  overflow: hidden;
+  background: #1a1a1a;
+  color: white;
+  border-radius: 40px;
+}
+
+.slider {
+  position: relative;
+  height: 100%;
+}
+
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.6s ease-in-out;
+  padding: 40px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.slide.active {
+  opacity: 1;
+}
+
+.nav-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.3);
+  border: none;
+  color: white;
+  padding: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-button:hover {
+  background: rgba(255, 255, 255, 0.7);
+  color: #1a1a1a;
+}
+
+.prev {
+  left: 20px;
+}
+
+.next {
+  right: 20px;
+}
+
+.slide h1 {
+  font-size: 2.5em;
+  
+}
+
+.slide p {
+  font-size: 1.2em;
+  
+}
+
+
+/* hero: slider */
+
+.hero_feature{
+  visibility: visible;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 5%;
+  margin-top: 30px;
+  background-color: #022409;
+  color: white;
+  border-radius: 20px;
+}
+
+
+
+
+
+/* Styling for the desc (description) div */
+.desc {
+    background-color: #f5f5f5; /* Off-white background */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    margin-top: 20px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Styling the table inside the .desc div */
+  .desc table {
+    width: 100%;
+    border-collapse: collapse; /* Collapse table borders */
+    margin-top: 20px;
+  }
+  
+  .desc table th, .desc table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Light gray border between rows */
+  }
+  
+  .desc table th {
+    background-color: #f2f2f2; /* Light gray background for table headers */
+    color: #333; /* Dark text for the headers */
+    font-weight: bold;
+  }
+  
+  .desc table td {
+    color: #555; /* Slightly lighter text for table body cells */
+  }
+  
+  /* Hover effect on table rows */
+  .desc table tr:hover {
+    background-color: #f1f1f1; /* Light hover effect */
+  }
+  
+  /* Right-align last column (e.g., price) */
+  .desc table td:last-child {
+    text-align: right;
+  }
+  
+  /* Style for headings and general text inside .desc */
+  .desc h1, .desc h2, .desc h3 {
+    color: #333; /* Dark text for headers */
+    margin-bottom: 10px;
+  }
+  
+  /* Optional: Style for product description or any extra text content */
+  .desc p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+  }
+  
+
+  /* Style for the spec div */
+.spec {
+    margin: 30px 0; /* Adds 30px margin to top and bottom */
+    background-color: white; /* White background */
+    padding: 20px; /* Adds some padding inside the div */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    font-family: 'Arial', sans-serif; /* Font family */
+    color: #333; /* Dark text color for readability */
+  }
+  
+  /* Heading for the Specification section */
+  .spec h2 {
+    font-weight: bold; /* Makes the heading bold */
+    font-size: 1.5rem; /* Slightly larger font size for the heading */
+    color: #444; /* A slightly lighter color for the heading */
+    margin-bottom: 15px; /* Adds space between the heading and the list */
+  }
+  
+  /* Style for the specification list */
+ 
+  
+
+  
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(45deg, #3f23dac2, #022409);
+    color: white;
+    font-weight: bold;
+    
+}
