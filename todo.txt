@@ -1,3 +1,0 @@
-for feature products
-    on sale
-    best selling

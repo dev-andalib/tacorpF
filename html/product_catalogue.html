@@ -42,7 +42,7 @@
                 id="minPrice"
                 name="minPrice"
                 placeholder="ন্যূনতম মূল্য"
-                min = "0"
+                min="0"
               />
             </div>
 
@@ -54,7 +54,7 @@
                 id="maxPrice"
                 name="maxPrice"
                 placeholder="সর্বোচ্চ মূল্য"
-                min = "0"
+                min="0"
               />
             </div>
 
@@ -67,19 +67,28 @@
                   id="minSold"
                   name="minSold"
                   placeholder="সংখ্যা"
-                  min = "0"
+                  min="0"
                 />
               </div>
             </div>
           </div>
 
-          <button type="submit">অনুসন্ধান করুন</button>
+          <button onclick="performSearch()" type="submit">
+            অনুসন্ধান করুন
+          </button>
         </form>
-
-        <div id="searchResults"></div>
       </section>
 
-      <section class="view all products"></section>
+      <section class="searched_results">
+        <h1>অনুসন্ধান ফলাফল</h1>
+        <div class="product-grid"></div>
+        <button onclick="viewAll()" type="submit">সব পণ্য দেখুন</button>
+      </section>
+
+      <section class="view_all">
+        <h1>সবকটি পণ্য</h1>
+        <div class="product-grid2"></div>
+      </section>
     </main>
 
     <footer>

@@ -1,7 +1,6 @@
 
 
 let query = [];
-
 for (let key in product) {
   let value = product[key]["number sold"];
 
