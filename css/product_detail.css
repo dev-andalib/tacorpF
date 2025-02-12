@@ -1,4 +1,3 @@
-
 * {
     box-sizing: border-box;
     font-family: Arial, sans-serif;
@@ -28,7 +27,8 @@ header {
 nav ul {
     list-style: none;
     display: flex;
-    gap: 30px;
+    gap: 10px;
+    justify-content: end;
     
 }
 
@@ -73,13 +73,16 @@ main{
     padding: 2rem;
     box-shadow: 0 0 50px 20px rgba(3, 250, 168, 0.5);
     border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
 }
 
 
 /* hero: slider */
 .slider-container {
   position: relative;
-  max-width: 1200px;
+  width: 800px;
   margin: 0 auto;
   height: 30rem;
   overflow: hidden;
@@ -171,115 +174,89 @@ main{
 
 
 
-/* TRENDING PRODUCTS */
-.feature-products {
-  text-align: center;
-  padding: 30px 30px;
-  background: radial-gradient(circle, #0919ffaf, #abc8f06e, #0919ff, #90b0dd, #0919ff86, #7487a16e, #0919ff);
-  color: #333;
-  margin: 100px 0;
-  font-family: "Arial", sans-serif; 
-  border-radius: 10px;
+/* Styling for the desc (description) div */
+.desc {
+    background-color: #f5f5f5; /* Off-white background */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    margin-top: 20px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
   
-}
-
-.feature-products h1 {
-  margin-bottom: 20px;
-  font-size: 38px; 
-  font-weight:900;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: #fd0000;
+  /* Styling the table inside the .desc div */
+  .desc table {
+    width: 100%;
+    border-collapse: collapse; /* Collapse table borders */
+    margin-top: 20px;
+  }
   
-}
+  .desc table th, .desc table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Light gray border between rows */
+  }
+  
+  .desc table th {
+    background-color: #f2f2f2; /* Light gray background for table headers */
+    color: #333; /* Dark text for the headers */
+    font-weight: bold;
+  }
+  
+  .desc table td {
+    color: #555; /* Slightly lighter text for table body cells */
+  }
+  
+  /* Hover effect on table rows */
+  .desc table tr:hover {
+    background-color: #f1f1f1; /* Light hover effect */
+  }
+  
+  /* Right-align last column (e.g., price) */
+  .desc table td:last-child {
+    text-align: right;
+  }
+  
+  /* Style for headings and general text inside .desc */
+  .desc h1, .desc h2, .desc h3 {
+    color: #333; /* Dark text for headers */
+    margin-bottom: 10px;
+  }
+  
+  /* Optional: Style for product description or any extra text content */
+  .desc p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+  }
+  
 
-.product-grid {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-  flex-wrap: wrap;
-}
+  /* Style for the spec div */
+.spec {
+    margin: 30px 0; /* Adds 30px margin to top and bottom */
+    background-color: white; /* White background */
+    padding: 20px; /* Adds some padding inside the div */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    font-family: 'Arial', sans-serif; /* Font family */
+    color: #333; /* Dark text color for readability */
+  }
+  
+  /* Heading for the Specification section */
+  .spec h2 {
+    font-weight: bold; /* Makes the heading bold */
+    font-size: 1.5rem; /* Slightly larger font size for the heading */
+    color: #444; /* A slightly lighter color for the heading */
+    margin-bottom: 15px; /* Adds space between the heading and the list */
+  }
+  
+  /* Style for the specification list */
+ 
+  
 
-.product-card {
-  background: white;
-  padding: 30px; 
-  border-radius: 10px;
-  text-align: center;
-  width: 340px; 
-  height: 280px; 
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-
-
-
-.product-card:hover {
-  transform: translateY(-7px);
-}
-
-.product-card img {
-  width: 100%;
-  height: 180px; 
-  object-fit: contain; 
-  border-radius: 10px;
-}
-
-.product-card h2 {
-  font-size: 20px; 
-  font-weight: bold;
-  color: #fd0000;
-  margin-top: 5px;  
-}
-
-.product-card h3 {
-  font-size: 15px;
-  color: #a80a0a;
-  margin-top: 3px;
-}
-
-
-.see-more-container {
-  margin-top: 35px;
-}
-
-.see-more-btn {
-  background: #f0f0f0;
-  color:  #fc2020;
-  font-size: 18px;
-  font-weight: bold;
-  padding: 15px 30px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background 0.3s ease-in-out;
-}
-
-.see-more-btn:hover {
-  background: #9896a0;
-}
-
-
-
-
-
-/* TESTIMONIALS */
-.testimonials {
-    text-align: center;
-    background: linear-gradient(45deg, #3f23dac2, #03faa8);
-    color: white;
-    margin-bottom: 30px;
-    max-width: 1200px;
-    padding: 20px 40px 40px 40px;
-    border-radius: 10px;
-}
-
-.testimonials h2 {
-    color: white;
-    margin-bottom: 20px;
-}
-
-
-
-
+  
 /* FOOTER */
 footer {
     text-align: center;

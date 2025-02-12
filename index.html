@@ -5,6 +5,7 @@
     <title>T.A Corporation - Home</title>
     <link rel="stylesheet" href="./css/index.css" />
   </head>
+
   <body>
     <header>
       <div class="logo">
@@ -13,9 +14,9 @@
       </div>
       <nav>
         <ul>
-          <li><a href="./html/about.html">About</a></li>
-          <li><a href="./html/product_catalogue.html">Product</a></li>
-          <li><a href="./html/contact.html">Contact</a></li>
+          <li><a href="./html/about.html">আমাদের সম্পর্কে</a></li>
+          <li><a href="./html/product_catalogue.html">আমাদের পণ্য</a></li>
+          <li><a href="./html/contact.html">আমাদের সাথে যোগাযোগ</a></li>
         </ul>
       </nav>
     </header>
@@ -53,8 +54,6 @@
               <h1>SLIDE 6</h1>
               <p>Our products and services</p>
             </div>
-
-            
           </div>
 
           <button class="nav-button prev">❮</button>
@@ -66,38 +65,17 @@
 
       <!-- FEATURE PRODUCTS SECTION -->
       <section class="feature-products">
-        <h2>Trending</h2>
-        <div class="product-grid">
-          <a href="#"
-            ><div class="product-card">
-              <img src="./images/products/product1.jpg" alt="Product 1" />
-              <h3>Product Name 1</h3>
-              <p>High-quality and reliable.</p>
-            </div></a
-          >
-          <a href="#"
-            ><div class="product-card">
-              <img src="./images/products/product1.jpg" alt="Product 1" />
-              <h3>Product Name 1</h3>
-              <p>High-quality and reliable.</p>
-            </div></a
-          >
-          <a href="#"
-            ><div class="product-card">
-              <img src="./images/products/product1.jpg" alt="Product 1" />
-              <h3>Product Name 1</h3>
-              <p>High-quality and reliable.</p>
-            </div></a
-          >
-        </div>
+        <h1>জনপ্রিয়</h1>
+        <div class="product-grid"></div>
+        
 
         <div class="see-more-container">
-          <button class="see-more-btn">See More</button>
+          <a class="see-more-btn" href="./html/product_catalogue.html">সব পণ্য দেখান</a>
         </div>
       </section>
 
       <!-- TESTIMONIALS SECTION -->
-      <section class="testimonials">
+      <!-- <section class="testimonials">
             <h2>What Our Clients Say</h2>
             
             <div class="slider-container">
@@ -126,13 +104,17 @@
               <button class="nav-button next">❯</button>
             </div>
     
-        </section>
+      </section> -->
     </main>
 
     <footer>
-        <p>&copy; 2016 T.A Corporation. All rights reserved.</p>
+      <p>&copy; 2016 T.A Corporation. All rights reserved.</p>
     </footer>
 
-    <script src="./JS/script.js"></script>
+  
+    
+    <script src="JS/script.js"></script>
+    <script src="JS/data.js"></script>
+    <script src="JS/feature.js"></script>
   </body>
 </html>
