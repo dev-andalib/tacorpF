@@ -36,30 +36,30 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-document.addEventListener("DOMContentLoaded", function () {
-    const slides = document.querySelectorAll(".testimonials .slide");
-    const prevButton = document.querySelector(".testimonials .prev");
-    const nextButton = document.querySelector(".testimonials .next");
-    let currentSlide = 0;
+// document.addEventListener("DOMContentLoaded", function () {
+//     const slides = document.querySelectorAll(".testimonials .slide");
+//     const prevButton = document.querySelector(".testimonials .prev");
+//     const nextButton = document.querySelector(".testimonials .next");
+//     let currentSlide = 0;
 
-    function showSlide(index) {
-        slides.forEach(slide => slide.classList.remove("active"));
-        slides[index].classList.add("active");
-    }
+//     function showSlide(index) {
+//         slides.forEach(slide => slide.classList.remove("active"));
+//         slides[index].classList.add("active");
+//     }
 
-    function nextSlide() {
-        currentSlide = (currentSlide + 1) % slides.length; 
-        showSlide(currentSlide);
-    }
+//     function nextSlide() {
+//         currentSlide = (currentSlide + 1) % slides.length; 
+//         showSlide(currentSlide);
+//     }
 
-    function prevSlide() {
-        currentSlide = (currentSlide - 1 + slides.length) % slides.length; 
-        showSlide(currentSlide);
-    }
+//     function prevSlide() {
+//         currentSlide = (currentSlide - 1 + slides.length) % slides.length; 
+//         showSlide(currentSlide);
+//     }
 
-    nextButton.addEventListener("click", nextSlide);
-    prevButton.addEventListener("click", prevSlide);
+//     nextButton.addEventListener("click", nextSlide);
+//     prevButton.addEventListener("click", prevSlide);
 
     
-    setInterval(nextSlide, 5000);
-});
+//     setInterval(nextSlide, 5000);
+// });
