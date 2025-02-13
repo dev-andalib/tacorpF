@@ -44,7 +44,7 @@ nav ul li a {
   text-transform: uppercase;
 }
 nav ul li:hover {
-  background-color: #0f4c754d;
+  background-color: #0f4c75ad;
   transition: all linear 0.3s;
 }
 

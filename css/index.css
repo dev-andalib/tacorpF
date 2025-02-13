@@ -43,7 +43,7 @@ nav ul li a {
   text-transform: uppercase;
 }
 nav ul li:hover {
-  background-color: #0f4c754d;
+  background-color: #0f4c75af;
   transition: all linear 0.3s;
 }
 
@@ -159,16 +159,7 @@ main {
 .feature-products {
   text-align: center;
   padding: 30px 30px;
-  background: radial-gradient(
-    circle,
-    #0919ffaf,
-    #abc8f06e,
-    #0919ff,
-    #90b0dd,
-    #0919ff86,
-    #7487a16e,
-    #0919ff
-  );
+  background-color: rgb(43, 97, 75); 
   color: #333;
   margin: 100px 0;
   font-family: "Arial", sans-serif;

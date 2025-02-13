@@ -25,6 +25,7 @@ label {
   display: block;
   font-weight: bold;
   margin-bottom: 5px;
+  font-size: 16px;
 }
 
 input[type="number"],
@@ -36,12 +37,18 @@ select {
   border-radius: 25px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
+  font-size: 13px;
 }
 
 input[type="number"]:focus,
 select:focus {
   border-color: #4caf50;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+input::placeholder, select{
+  font-size: 20px;
+  font-style: italic;  /* Optional, change style */
 }
 
 .B {
@@ -60,6 +67,7 @@ button {
   border-radius: 25px; /* Rounded button */
   cursor: pointer;
   transition: background-color 0.3s ease;
+  font-size: 16px;
 }
 
 button:hover {
@@ -86,7 +94,7 @@ button:hover {
 .searched_results {
   text-align: center;
   padding: 30px 30px;
-  background: radial-gradient(circle, #0919ffaf, #abc8f06e, #0919ff, #90b0dd, #0919ff86, #7487a16e, #0919ff);
+  background-color: rgb(43, 97, 75);
   color: #333;
   margin: 100px 0;
   font-family: "Arial", sans-serif; 
@@ -156,11 +164,11 @@ button:hover {
 .view_all{
   text-align: center;
   padding: 30px 30px;
-  background: radial-gradient(circle, #0919ffaf, #abc8f06e, #0919ff, #90b0dd, #0919ff86, #7487a16e, #0919ff);
+  background-color: rgb(43, 97, 75);
   color: #333;
   font-family: "Arial", sans-serif; 
   border-radius: 10px;
-  
+  margin-bottom: 20px;
 }
 
 .view_all h1 {
