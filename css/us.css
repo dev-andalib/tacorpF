@@ -1,0 +1,113 @@
+/* Main Section Layout */
+main {
+    height: 78vh; /* Full viewport height */
+    width: 1200px;
+    padding: 10px; /* Add some padding around */
+    box-sizing: border-box;
+  }
+  
+  /* Comp Section */
+  .comp {
+    display: flex; /* Place slider-container and desc side by side */
+    justify-content: space-between; /* Space between slider and desc */
+    align-items: center;
+    height: 100%;
+    column-gap: 30px;
+  }
+  
+  /* Slider Container */
+  .slider-container {
+    width: 700px; /* Slider width */
+    position: relative; /* Required for positioning the nav buttons */
+    box-sizing: border-box;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Shadow effect for slider */
+    border-radius: 10px; /* Rounded corners for slider */
+    overflow: hidden; /* Hide any overflowing content */
+  }
+  
+  /* Slider */
+  .slider {
+    height: 100%; /* Full height of the container */
+  }
+  
+  /* Navigation buttons */
+  .nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.7);
+    color: white;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .nav-button:hover {
+    background: rgba(255, 255, 255, 1);
+    color: #1a1a1a;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
+  
+  /* Description Section */
+  .desc {
+    width: 400px; /* Description width */
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: 4px 0 10px rgba(0, 0, 0, 0.1); /* Shadow for desc */
+    border-radius: 10px; /* Rounded corners for description */
+    height: 100%; /* Full height of the parent container */
+    overflow-y: auto; /* Scroll if content overflows */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  /* Owner Picture Styling (adjust as needed) */
+  .owner_pic {
+    width: 270px;
+    height: 270px; /* Adjust based on your image size */
+    background-color: #e4e4e4;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  
+  /* Description Text */
+  .owner_desc h2 {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .owner_desc h3 {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .owner_desc p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    text-align: left; /* Align the paragraph text at the start */
+    margin-left: 15px;
+  }
+  
