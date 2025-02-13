@@ -1,35 +1,120 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>T.A Corporation - Home</title>
-    <link rel="stylesheet" href="./css/index.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+
+  <body>
     <header>
-        <div class="logo">
-            <img src="./images/company/logo.svg" alt="T.A Corporation Logo">
-            <h2 class="imagefoot">CORPORATION</h2>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="./html/about.html">About</a></li>
-                <li><a href="./html/product_catalogue.html">Product</a></li>
-                <li><a href="./html/contact.html">Contact</a></li>
-            </ul>
-        </nav>
+      <div class="logo">
+        <img src="./images/company/logo.svg" alt="T.A Corporation Logo" />
+        <h2 class="imagefoot">CORPORATION</h2>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="./html/about.html">আমাদের সম্পর্কে</a></li>
+          <li><a href="./html/product_catalogue.html">আমাদের পণ্য</a></li>
+          <li><a href="./html/contact.html">আমাদের সাথে যোগাযোগ</a></li>
+        </ul>
+      </nav>
     </header>
-    
+
     <main>
-        <section class="hero">
-            <h1>Welcome to T.A Corporation</h1>
-            <p>Your trusted partner for innovative solutions.</p>
-            <a href="#" class="cta-button">Learn More</a>
-        </section>
-    </main>
+      <!-- HERO BANNER SECTION -->
+      <section class="hero">
+        <div class="slider-container">
+          <div class="slider">
+            <div class="slide active">
+              <h1>Welcome to TA Corporation</h1>
+            </div>
+
+            <div class="slide">
+              <h1>SLIDE 2</h1>
+              <p>About us content goes here</p>
+            </div>
+
+            <div class="slide">
+              <h1>SLIDE 3</h1>
+              <p>Our products and services</p>
+            </div>
+
+            <div class="slide">
+              <h1>SLIDE 4</h1>
+              <p>Our products and services</p>
+            </div>
+
+            <div class="slide">
+              <h1>SLIDE 5</h1>
+              <p>Our products and services</p>
+            </div>
+
+            <div class="slide">
+              <h1>SLIDE 6</h1>
+              <p>Our products and services</p>
+            </div>
+          </div>
+
+          <button class="nav-button prev">❮</button>
+          <button class="nav-button next">❯</button>
+        </div>
+
+        <div class="hero_feature">ANY DISCOUNT</div>
+      </section>
+
+      <!-- FEATURE PRODUCTS SECTION -->
+      <section class="feature-products">
+        <h1>জনপ্রিয়</h1>
+        <div class="product-grid"></div>
+        
+
+        <div class="see-more-container">
+          <a class="see-more-btn" href="./html/product_catalogue.html">সব পণ্য দেখান</a>
+        </div>
+      </section>
+
+      <!-- TESTIMONIALS SECTION -->
+      <!-- <section class="testimonials">
+            <h2>What Our Clients Say</h2>
+            
+            <div class="slider-container">
+              <div class="slider">
+                <div class="slide active">
+                  <h1>Welcome to TA Corporation</h1>
+                </div>
     
+                <div class="slide">
+                  <h1>SLIDE 2</h1>
+                  <p>About us content goes here</p>
+                </div>
+    
+                <div class="slide">
+                  <h1>SLIDE 3</h1>
+                  <p>Our products and services</p>
+                </div>
+    
+                <div class="slide">
+                  <h1>SLIDE 4</h1>
+                  <p>Our products and services</p>
+                </div>   
+              </div>
+    
+              <button class="nav-button prev">❮</button>
+              <button class="nav-button next">❯</button>
+            </div>
+    
+      </section> -->
+    </main>
+
     <footer>
-        <p>&copy; 2025 T.A Corporation. All rights reserved.</p>
+      <p>&copy; 2016 T.A Corporation. All rights reserved.</p>
     </footer>
-</body>
+
+  
+    
+    <script src="JS/script.js"></script>
+    <script src="JS/data.js"></script>
+    <script src="JS/feature.js"></script>
+  </body>
 </html>
