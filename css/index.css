@@ -5,12 +5,7 @@
   padding: 0;
   text-decoration: none;
 }
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-}
+ 
 
 /* Nav bar */
 header {
@@ -30,9 +25,7 @@ header {
   height: 100px;
   height: 100px;
 }
-.imagefoot {
-  margin: 5px;
-  color: #022409fd;
+
 .imagefoot {
   margin: 5px;
   color: #022409fd;
@@ -82,13 +75,6 @@ main {
 }
 
 /* HERO SECTION */
-.hero {
-  text-align: center;
-  background: linear-gradient(45deg, #579e86 60%, #ffffff94 40%);
-  margin-top: 3rem;
-  padding: 2rem;
-  box-shadow: 0 0 50px 20px rgba(3, 250, 168, 0.5);
-  border-radius: 10px;
 .hero {
   text-align: center;
   background: linear-gradient(45deg, #579e86 60%, #ffffff94 40%);
@@ -175,7 +161,6 @@ main {
 
 /* hero: slider */
 
-.hero_feature {
 .hero_feature {
   visibility: visible;
   max-width: 1200px;
