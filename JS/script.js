@@ -25,7 +25,7 @@ function initializeSlider(containerSelector) {
   if (nextButton) nextButton.addEventListener("click", nextSlide);
   if (prevButton) prevButton.addEventListener("click", prevSlide);
 
-  setInterval(nextSlide, 5000);
+  setInterval(nextSlide, 15000);
 }
 
 initializeSlider(".slider-container");
