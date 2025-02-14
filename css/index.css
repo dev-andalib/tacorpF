@@ -311,7 +311,7 @@ footer {
   nav ul li {
     padding: 0px;
     width: 100%;
-    text-align: start;
+    text-align: end;
   }
 
   /* Decrease font size for mobile navbar links */

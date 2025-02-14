@@ -111,3 +111,114 @@ main {
     margin-left: 15px;
   }
   
+
+
+  /* MEDIA QUERY FOR 300 X 470 RESOLUTION */
+  /* Media Query for 300 x 470 px */
+@media screen and (max-width: 470px) {
+  /* Main Section Layout */
+  main {
+    width: 100%; /* Make sure it takes full width */
+    height: auto; /* Adjust height to fit content */
+    padding: 5px; /* Reduce padding */
+    box-sizing: border-box;
+  }
+
+  /* Comp Section */
+  .comp {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    height: auto; /* Allow for more flexibility */
+  }
+
+  /* Slider Container */
+  .slider-container {
+    width: 100%; /* Full width */
+    height: 230px; /* Reduce the height to fit the smaller screen */
+    max-width: 100%;
+    margin: 0 auto; /* Center the slider */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Shadow effect for slider */
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  /* Navigation buttons */
+  .nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.7);
+    color: white;
+    border: none;
+    padding: 10px; /* Reduce padding for small screens */
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    width: 30px; /* Smaller button size */
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Description Section */
+  .desc {
+    margin-top: 20px;
+    width: 100%; /* Full width */
+    max-width: 100%;
+    padding: 10px; /* Reduce padding */
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: 4px 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow-y: auto;
+    height: auto; /* Allow description to adjust height */
+  }
+
+  /* Owner Picture Styling */
+  .owner_pic {
+    width: 200px; /* Smaller image size */
+    height: 200px; /* Keep it square */
+    background-color: #e4e4e4;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+
+  /* Description Text */
+  .owner_desc h2 {
+    font-size: 1.2rem; /* Smaller font size */
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .owner_desc h3 {
+    font-size: 1rem; /* Smaller font size */
+    color: #666;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .owner_desc p {
+    font-size: 0.9rem; /* Smaller font size */
+    color: #555;
+    line-height: 1.4;
+    text-align: left;
+    margin-left: 10px; /* Adjust left margin */
+  }
+
+  /* Footer */
+  footer {
+    font-size: 12px; /* Smaller font size */
+  }
+
+  /* Ensure the layout doesn't overflow the screen */
+  .comp {
+    margin-bottom: 20px;
+  }
+}
