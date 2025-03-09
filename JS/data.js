@@ -21,7 +21,7 @@ const product = {
     "Brand Name": "",
     Type: "",
     Wheel: "না",
-    Price: 2050,
+    Price: 1000,
     Specification: [
       "উপাদান: টেম্পার্ড গ্লাস + প্লাস্টিক",
       "ফাংশন: ওজন পরিমাপ, BMI ফাংশনসহ, ব্লুটুথ সংযোগ",
