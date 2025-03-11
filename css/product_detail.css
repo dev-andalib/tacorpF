@@ -208,7 +208,7 @@ footer {
 /* MEDIA QUERY FOR 300 X 470 PX */
 @media screen and (max-width: 470px) {
   main{
-    width: 90%;
+    width: 95%;
   }
   .hero {
     flex-direction: column;
@@ -220,7 +220,7 @@ footer {
   }
 
   .slider-container {
-    height: 300px;
+    height: 600px;
     border-radius: 10px;
     width: 100%;
   }
