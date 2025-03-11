@@ -45,7 +45,6 @@ function renderProductDetails(productDetails) {
     { label: "চাকা", value: productDetails.Wheel },
     { label: "মূল্য", value: `৳ ${productDetails.Price}` },
     { label: "শ্রেণী", value: productDetails.Category },
-    { label: "বিক্রি হওয়া সংখ্যা", value: productDetails["number sold"] },
   ];
 
   generalDetails.forEach((detail) => {

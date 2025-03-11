@@ -4,7 +4,7 @@ const product = {
     "Brand Name": "",
     Type: "ছোট ওজন মাপার যন্ত্র",
     Wheel: "না",
-    Price: 600,
+    Price: 650,
     Specification: [],
     Category: "কিচেন স্কেল",
     "Picture Path": "./images/kitchen/main.jpg",
@@ -58,7 +58,7 @@ const product = {
       "body made of refined fibre",
       "plate weight is 360g",
       "plate can be both T-plate or Plain-plate",
-      "color can be yellow or orange"
+      "color can be yellow or orange",
     ],
     Category: "Kitchen Scale",
     "Picture Path": "./images/20-30kg/main.PNG",
@@ -80,7 +80,7 @@ const product = {
       "body made of refined fibre",
       "plate weight is 360g",
       "plate can be both T-plate or Plain-plate",
-      "color can be yellow or orange"
+      "color can be yellow or orange",
     ],
     Category: "Kitchen Scale",
     "Picture Path": "./images/20-30kg/main.PNG",
@@ -174,6 +174,25 @@ const product = {
     "Picture Path": "./images/99kg/main.png",
     "number sold": 100,
     "other pic path": ["./images/99kg/1.png", "./images/99kg/2.png"],
+  },
+
+  "100kg/10gMS": {
+    name: "100kg/10g MS",
+    "Brand Name": "GRAMEEN ROCKET",
+    Type: "MS",
+    Wheel: "না",
+    Price: 4400,
+    Specification: [
+      "Bright display with bigger digit",
+      "Product has rail",
+      "Size 35 * 45 cm",
+      "4V 4Ah 450g battery",
+      "Monitor / Indicator has steel keypad",
+    ],
+    Category: "প্ল্যাটফর্ম স্কেল",
+    "Picture Path": "./images/100kgms/main.png",
+    "number sold": 120,
+    "other pic path": ["./images/100kgms/1.png"],
   },
 
   "100kg/10gSS": {
