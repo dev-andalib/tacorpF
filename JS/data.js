@@ -2,7 +2,7 @@ const product = {
   "kitchen scale": {
     name: "10kg/1g",
     "Brand Name": "",
-    Type: "",
+    Type: "ছোট ওজন মাপার যন্ত্র",
     Wheel: "না",
     Price: 600,
     Specification: [],
@@ -19,7 +19,7 @@ const product = {
   "body scale": {
     name: "Body Scale",
     "Brand Name": "",
-    Type: "",
+    Type: "ডিজিটাল ওজন মাপার যন্ত্র ",
     Wheel: "না",
     Price: 1000,
     Specification: [
@@ -46,36 +46,46 @@ const product = {
 
   "20kg/1g": {
     name: "20kg/1g",
-    "Brand Name": "",
+    "Brand Name": "GRAMEEN ROCKET",
     Type: "",
     Wheel: "না",
     Price: 2050,
-    Specification: [],
-    Category: "",
-    "Picture Path": "./images/kitchen/main.jpg",
-    "number sold": 0,
-    "other pic path": [
-      "./images/kitchen/1.jpg",
-      "./images/kitchen/2.jpg",
-      "./images/kitchen/3.jpg",
+    Specification: [
+      "battery 4v 4AH, net weight 450g",
+      "transformer charging system",
+      "pan: 30*30.5 cm",
+      "display:both side with bigger Digit, higher brightness",
+      "body made of refined fibre",
+      "plate weight is 360g",
+      "plate can be both T-plate or Plain-plate",
+      "color can be yellow or orange"
     ],
+    Category: "Kitchen Scale",
+    "Picture Path": "./images/20-30kg/main.PNG",
+    "number sold": 0,
+    "other pic path": ["./images/20-30kg/10kg.PNG"],
   },
 
   "30kg/1g": {
     name: "30kg/1g",
-    "Brand Name": "",
+    "Brand Name": "GRAMEEN ROCKE",
     Type: "",
     Wheel: "না",
     Price: 2100,
-    Specification: [],
-    Category: "",
-    "Picture Path": "./images/kitchen/main.jpg",
-    "number sold": 0,
-    "other pic path": [
-      "./images/kitchen/1.jpg",
-      "./images/kitchen/2.jpg",
-      "./images/kitchen/3.jpg",
+    Specification: [
+      "battery 4v 4AH, net weight 450g",
+      "transformer charging system",
+      "pan: 30*30.5 cm",
+      "display:both side with bigger Digit, higher brightness",
+      "body made of refined fibre",
+      "plate weight is 360g",
+      "plate can be both T-plate or Plain-plate",
+      "color can be yellow or orange"
     ],
+    Category: "Kitchen Scale",
+    "Picture Path": "./images/20-30kg/main.PNG",
+    "number sold": 0,
+    "other pic path": ["./images/20-30kg/10kg.PNG"],
   },
 
   "40kg/1g": {
@@ -138,10 +148,7 @@ const product = {
     Category: "বেঞ্চ স্কেল",
     "Picture Path": "./images/60kg/main.png",
     "number sold": 0,
-    "other pic path": [
-      "./images/60kg/1.png",
-      "./images/60kg/2.png",
-    ],
+    "other pic path": ["./images/60kg/1.png", "./images/60kg/2.png"],
   },
 
   "100kg/5g": {
@@ -166,27 +173,7 @@ const product = {
     Category: "বেঞ্চ স্কেল",
     "Picture Path": "./images/99kg/main.png",
     "number sold": 100,
-    "other pic path": [
-      "./images/99kg/1.png",
-      "./images/99kg/2.png",
-    ],
-  },
-
-  "100kg/10gMS": {
-    name: "100kg/10g MS",
-    "Brand Name": "",
-    Type: "MS",
-    Wheel: "না",
-    Price: 4400,
-    Specification: [],
-    Category: "প্ল্যাটফর্ম স্কেল",
-    "Picture Path": "./images/40kg/main.png",
-    "number sold": 0,
-    "other pic path": [
-      "./images/100kgms/1.jpg",
-      "./images/100kgms/2.jpg",
-      "./images/100kgms/3.jpg",
-    ],
+    "other pic path": ["./images/99kg/1.png", "./images/99kg/2.png"],
   },
 
   "100kg/10gSS": {
@@ -213,41 +200,32 @@ const product = {
     Category: "প্ল্যাটফর্ম স্কেল",
     "Picture Path": "./images/100kgss/main.png",
     "number sold": 120,
-    "other pic path": [
-      "./images/100kgss/1.png",
-      "./images/100kgss/2.png",
-    ],
+    "other pic path": ["./images/100kgss/1.png", "./images/100kgss/2.png"],
   },
 
   "150kg/10gMS": {
-    name: "100kg/10g MS",
+    name: "150kg/10g MS",
     "Brand Name": "",
     Type: "MS",
     Wheel: "না",
     Price: 4800,
     Specification: [],
     Category: "প্ল্যাটফর্ম স্কেল",
-    "Picture Path": "./images/40kg/main.png",
+    "Picture Path": "./images/150kgms/main.png",
     "number sold": 10,
-    "other pic path": [
-      "./images/150kgms/1.png",
-      "./images/150kgms/2.png",
-    ],
+    "other pic path": ["./images/150kgms/1.png", "./images/150kgms/2.png"],
   },
   "150kg/10gSS": {
-    name: "100kg/10g SS",
+    name: "150kg/10g SS",
     "Brand Name": "",
     Type: "SS",
     Wheel: "না",
     Price: 5000,
     Specification: [],
     Category: "প্ল্যাটফর্ম স্কেল",
-    "Picture Path": "./images/40kg/main.png",
+    "Picture Path": "./images/150kgss/main.png",
     "number sold": 10000,
-    "other pic path": [
-      "./images/150kgss/1.png",
-      "./images/150kgss/2.png",
-    ],
+    "other pic path": ["./images/150kgss/1.png", "./images/150kgss/2.png"],
   },
 
   "250kg/20gMS": {
@@ -258,12 +236,9 @@ const product = {
     Price: 6500,
     Specification: [],
     Category: "প্ল্যাটফর্ম স্কেল",
-    "Picture Path": "./images/40kg/main.png",
+    "Picture Path": "./images/250kgms/main.png",
     "number sold": 10,
-    "other pic path": [
-      "./images/250kgms/1.png",
-      "./images/250kgms/2.png",
-    ],
+    "other pic path": ["./images/250kgms/1.png", "./images/250kgms/2.png"],
   },
   "250kg/20gSS": {
     name: "250kg/20g SS",
@@ -273,12 +248,9 @@ const product = {
     Price: 7200,
     Specification: [],
     Category: "প্ল্যাটফর্ম স্কেল",
-    "Picture Path": "./images/40kg/main.png",
+    "Picture Path": "./images/250kgss/main.png",
     "number sold": 8000,
-    "other pic path": [
-      "./images/250kgss/1.png",
-      "./images/250kgss/2.png",
-    ],
+    "other pic path": ["./images/250kgss/1.png"],
   },
 
   "300kg/20gMS": {
@@ -311,6 +283,32 @@ const product = {
     ],
   },
 
+  "300kg/20gSS": {
+    name: "300kg/20g SS",
+    "Brand Name": "GRAMEEN ROCKET",
+    Type: "MS",
+    Wheel: "হ্যাঁ",
+    Price: 8000,
+    Specification: [
+      "*৩০০ কেজি প্ল্যাটফর্ম স্কেল",
+      "*আকার: ৪৫*৬০ সেমি",
+      "*৪ভি ৪এ ৪৫০গ্রাম ব্যাটারি",
+      "*স্টিল কিপ্যাড ডিজিটাল ডুয়াল ডিসপ্লে",
+      "*ওজন পরিমাপ প্যানের পুরুত্ব ১.৮ মিমি",
+      "*আই-আকৃতির বেড়ার উচ্চতা ৬৫ সেমি",
+      "*মাথার উচ্চতা ৯১ সেমি",
+      "*৮০০ কেজি সেন্সর প্যাকেজ",
+      "*রঙিন ছবি মডেল",
+      "*চাকা সহ",
+      "আকার: ৯৯*৪৬*২৩.৫ সেমি",
+      "গ্রস ওজন/নেট ওজন: ২৬ কেজি/২৫ কেজি",
+    ],
+    Category: "প্ল্যাটফর্ম স্কেল",
+    "Picture Path": "./images/300kgss/main.png",
+    "number sold": 1000,
+    "other pic path": ["./images/300kgss/main.png"],
+  },
+
   "500kg/50gMS": {
     name: "500kg/50g MS",
     "Brand Name": "",
@@ -319,7 +317,7 @@ const product = {
     Price: 8500,
     Specification: [],
     Category: "প্ল্যাটফর্ম স্কেল",
-    "Picture Path": "./images/40kg/main.png",
+    "Picture Path": "./images/500kgms/main.png",
     "number sold": 10,
     "other pic path": [
       "./images/500kgms/1.png",
@@ -335,7 +333,7 @@ const product = {
     Price: 8000,
     Specification: [],
     Category: "প্ল্যাটফর্ম স্কেল",
-    "Picture Path": "./images/40kg/main.png",
+    "Picture Path": "./images/500kgss/main.png",
     "number sold": 10,
     "other pic path": [
       "./images/500kgss/1.png",

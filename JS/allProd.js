@@ -96,7 +96,7 @@ function displayFeaturedProd(query) {
     productCard.innerHTML = `<div class="product-card">
           <img src=".${currentProduct["Picture Path"]}" alt="${productKey}" />
           <h2>${currentProduct["name"]}</h2>
-          <h3>মূল্য: ${currentProduct.Price}<h3>
+          <h3>মূল্য: ৳ ${currentProduct.Price}<h3>
         </div>`;
 
     productGrid.appendChild(productCard);
@@ -140,7 +140,7 @@ function displayAllProd() {
     productCard.innerHTML = `<div class="product-card">
             <img src=".${currentProduct["Picture Path"]}" alt="${productKey}" />
             <h2>${currentProduct["name"]}</h2>
-            <h3>মূল্য: ${currentProduct.Price}<h3>
+            <h3>মূল্য: ৳ ${currentProduct.Price}<h3>
           </div>`;
 
     productGrid2.appendChild(productCard);
