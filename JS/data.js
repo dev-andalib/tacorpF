@@ -2,9 +2,9 @@ const product = {
   "kitchen scale": {
     name: "10kg/1g",
     "Brand Name": "",
-    Type: "",
+    Type: "ছোট ওজন মাপার যন্ত্র",
     Wheel: "না",
-    Price: 10.6,
+    Price: 650,
     Specification: [],
     Category: "কিচেন স্কেল",
     "Picture Path": "./images/kitchen/main.jpg",
@@ -19,9 +19,9 @@ const product = {
   "body scale": {
     name: "Body Scale",
     "Brand Name": "",
-    Type: "",
+    Type: "ডিজিটাল ওজন মাপার যন্ত্র ",
     Wheel: "না",
-    Price: 2.71,
+    Price: 1000,
     Specification: [
       "উপাদান: টেম্পার্ড গ্লাস & প্লাস্টিক",
       "ফাংশন: ওজন পরিমাপ, BMI ফাংশনসহ, ব্লুটুথ সংযোগ",
@@ -44,28 +44,49 @@ const product = {
 
   "20kg/1g": {
     name: "20kg/1g",
-    "Brand Name": "",
+    "Brand Name": "GRAMEEN ROCKET",
     Type: "",
     Wheel: "না",
-    Price: 10.6,
-    Specification: [],
-    Category: "",
-    "Picture Path": "./images//main.jpg",
+
+    Price: 2050,
+    Specification: [
+      "battery 4v 4AH, net weight 450g",
+      "transformer charging system",
+      "pan: 30*30.5 cm",
+      "display:both side with bigger Digit, higher brightness",
+      "body made of refined fibre",
+      "plate weight is 360g",
+      "plate can be both T-plate or Plain-plate",
+      "color can be yellow or orange",
+    ],
+    Category: "Kitchen Scale",
+    "Picture Path": "./images/20-30kg/main.PNG",
     "number sold": 0,
-    "other pic path": ["./images//1.jpg", "./images//2.jpg", "./images//3.jpg"],
+    "other pic path": ["./images/20-30kg/10kg.PNG"],
+ 
   },
 
   "30kg/1g": {
     name: "30kg/1g",
-    "Brand Name": "",
+    "Brand Name": "GRAMEEN ROCKE",
     Type: "",
     Wheel: "না",
-    Price: 10.6,
-    Specification: [],
-    Category: "",
-    "Picture Path": "./images//main.jpg",
+
+    Price: 2100,
+    Specification: [
+      "battery 4v 4AH, net weight 450g",
+      "transformer charging system",
+      "pan: 30*30.5 cm",
+      "display:both side with bigger Digit, higher brightness",
+      "body made of refined fibre",
+      "plate weight is 360g",
+      "plate can be both T-plate or Plain-plate",
+      "color can be yellow or orange",
+    ],
+    Category: "Kitchen Scale",
+    "Picture Path": "./images/20-30kg/main.PNG",
     "number sold": 0,
-    "other pic path": ["./images//1.jpg", "./images//2.jpg", "./images//3.jpg"],
+    "other pic path": ["./images/20-30kg/10kg.PNG"],
   },
 
   "40kg/1g": {
@@ -73,7 +94,7 @@ const product = {
     "Brand Name": "topstar*",
     Type: "",
     Wheel: "না",
-    Price: 13,
+    Price: 2350,
     Specification: [
       "উপাদান: প্লাস্টিক, SS কি-প্যাড, সমতল প্লেট, প্লেটের ওজন 420g, প্লাস্টিক ফিট লক",
       "ফাংশন: ওজন পরিমাপ, মূল্য গণনা",
@@ -100,7 +121,7 @@ const product = {
     "Brand Name": "topstar*",
     Type: "",
     Wheel: "না",
-    Price: 18.5,
+    Price: 3300,
     Specification: [
       "৬০ কেজি প্ল্যাটফর্ম স্কেল",
       "আকার: 30*34cm",
@@ -124,7 +145,7 @@ const product = {
     "Brand Name": "GRAMEEN ROCKET",
     Type: "SS",
     Wheel: "না",
-    Price: 10,
+    Price: 3700,
     Specification: [
       "উপাদান: লোহা স্ট্যান্ড, এসএস প্যান, এসএস কিপ্যাড ডিসপ্লে, বেড়া",
       "এসএস প্যান আকার: ৩০*৪০ সেমি",
@@ -141,19 +162,23 @@ const product = {
 
   "100kg/10gMS": {
     name: "100kg/10g MS",
-    "Brand Name": "",
+    "Brand Name": "GRAMEEN ROCKET",
     Type: "MS",
     Wheel: "না",
-    Price: 23,
-    Specification: [],
+
+    Price: 4400,
+    Specification: [
+      "Bright display with bigger digit",
+      "Product has rail",
+      "Size 35 * 45 cm",
+      "4V 4Ah 450g battery",
+      "Monitor / Indicator has steel keypad",
+
+    ],
     Category: "প্ল্যাটফর্ম স্কেল",
     "Picture Path": "./images/100kgms/main.png",
-    "number sold": 0,
-    "other pic path": [
-      "./images/100kgms/1.jpg",
-      "./images/100kgms/2.jpg",
-      "./images/100kgms/3.jpg",
-    ],
+    "number sold": 120,
+    "other pic path": ["./images/100kgms/1.png"],
   },
 
   "100kg/10gSS": {
@@ -161,7 +186,7 @@ const product = {
     "Brand Name": "GRAMEEN ROCKET",
     Type: "SS",
     Wheel: "না",
-    Price: 10,
+    Price: 4550,
     Specification: [
       "মনিটরের সামনের এবং পিছনের ডিসপ্লে",
       "১০০ কেজি/১০ গ্রাম প্ল্যাটফর্ম স্কেল রেল এবং পা সহ",
@@ -184,7 +209,7 @@ const product = {
     "Brand Name": "",
     Type: "MS",
     Wheel: "না",
-    Price: 10,
+    Price: 4800,
     Specification: [],
     Category: "প্ল্যাটফর্ম স্কেল",
     "Picture Path": "./images/150kgms/main.png",
@@ -196,7 +221,7 @@ const product = {
     "Brand Name": "",
     Type: "SS",
     Wheel: "না",
-    Price: 10,
+    Price: 5000,
     Specification: [],
     Category: "প্ল্যাটফর্ম স্কেল",
     "Picture Path": "./images/150kgss/main.png",
@@ -209,7 +234,7 @@ const product = {
     "Brand Name": "",
     Type: "MS",
     Wheel: "না",
-    Price: 10,
+    Price: 6500,
     Specification: [],
     Category: "প্ল্যাটফর্ম স্কেল",
     "Picture Path": "./images/250kgms/main.png",
@@ -221,12 +246,14 @@ const product = {
     "Brand Name": "",
     Type: "SS",
     Wheel: "না",
-    Price: 10,
+    Price: 7200,
     Specification: [],
     Category: "প্ল্যাটফর্ম স্কেল",
-    "Picture Path": "./images/250kg/main.png",
-    "number sold": 10,
-    "other pic path": ["./images/250kgss/1.png", "./images/250kgss/2.png"],
+
+    "Picture Path": "./images/250kgss/main.png",
+    "number sold": 8000,
+    "other pic path": ["./images/250kgss/1.png"],
+
   },
 
   "300kg/20gMS": {
@@ -234,7 +261,7 @@ const product = {
     "Brand Name": "GRAMEEN ROCKET",
     Type: "MS",
     Wheel: "হ্যাঁ",
-    Price: 10,
+    Price: 7200,
     Specification: [
       "৩০০ কেজি প্ল্যাটফর্ম স্কেল",
       "আকার: ৪৫*৬০ সেমি",
@@ -257,12 +284,38 @@ const product = {
     ],
   },
 
+  "300kg/20gSS": {
+    name: "300kg/20g SS",
+    "Brand Name": "GRAMEEN ROCKET",
+    Type: "MS",
+    Wheel: "হ্যাঁ",
+    Price: 8000,
+    Specification: [
+      "*৩০০ কেজি প্ল্যাটফর্ম স্কেল",
+      "*আকার: ৪৫*৬০ সেমি",
+      "*৪ভি ৪এ ৪৫০গ্রাম ব্যাটারি",
+      "*স্টিল কিপ্যাড ডিজিটাল ডুয়াল ডিসপ্লে",
+      "*ওজন পরিমাপ প্যানের পুরুত্ব ১.৮ মিমি",
+      "*আই-আকৃতির বেড়ার উচ্চতা ৬৫ সেমি",
+      "*মাথার উচ্চতা ৯১ সেমি",
+      "*৮০০ কেজি সেন্সর প্যাকেজ",
+      "*রঙিন ছবি মডেল",
+      "*চাকা সহ",
+      "আকার: ৯৯*৪৬*২৩.৫ সেমি",
+      "গ্রস ওজন/নেট ওজন: ২৬ কেজি/২৫ কেজি",
+    ],
+    Category: "প্ল্যাটফর্ম স্কেল",
+    "Picture Path": "./images/300kgss/main.png",
+    "number sold": 1000,
+    "other pic path": ["./images/300kgss/main.png"],
+  },
+
   "500kg/50gMS": {
     name: "500kg/50g MS",
     "Brand Name": "",
     Type: "MS",
     Wheel: "হ্যাঁ",
-    Price: 10,
+    Price: 8500,
     Specification: [],
     Category: "প্ল্যাটফর্ম স্কেল",
     "Picture Path": "./images/500kgms/main.png",
@@ -278,7 +331,7 @@ const product = {
     "Brand Name": "",
     Type: "SS",
     Wheel: "হ্যাঁ",
-    Price: 10,
+    Price: 8000,
     Specification: [],
     Category: "প্ল্যাটফর্ম স্কেল",
     "Picture Path": "./images/500kgss/main.png",
