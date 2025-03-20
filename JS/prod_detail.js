@@ -64,31 +64,31 @@ function renderProductDetails(productDetails) {
 }
 
 // Function to render the specifications in the spec div as a comma-separated list
-function renderSpecifications(productDetails) {
-  const specDiv = document.querySelector(".spec");
+// function renderSpecifications(productDetails) {
+//   const specDiv = document.querySelector(".spec");
 
-  // Get the specifications from the product
-  const specifications = productDetails.Specification;
+//   // Get the specifications from the product
+//   const specifications = productDetails.Specification;
 
-  if (specifications && specifications.length > 0) {
-    const specHeading = document.createElement("p");
-    specHeading.style.fontWeight = "bold";
-    specHeading.textContent = "Specification:"; // Heading for the specifications
-    specDiv.appendChild(specHeading);
+//   if (specifications && specifications.length > 0) {
+//     const specHeading = document.createElement("p");
+//     specHeading.style.fontWeight = "bold";
+//     specHeading.textContent = "Specification:"; // Heading for the specifications
+//     specDiv.appendChild(specHeading);
 
-    // Join specifications into a single string with commas
-    const specList = specifications.join(", ");
+//     // Join specifications into a single string with commas
+//     const specList = specifications.join(", ");
 
-    const specParagraph = document.createElement("p");
-    specParagraph.textContent = specList; // Add specifications to the paragraph
-    specDiv.appendChild(specParagraph);
-  } else {
-    // If no specifications are available, you can display a default message
-    const noSpecMessage = document.createElement("p");
-    noSpecMessage.textContent = "No specifications available.";
-    specDiv.appendChild(noSpecMessage);
-  }
-}
+//     const specParagraph = document.createElement("p");
+//     specParagraph.textContent = specList; // Add specifications to the paragraph
+//     specDiv.appendChild(specParagraph);
+//   } else {
+//     // If no specifications are available, you can display a default message
+//     const noSpecMessage = document.createElement("p");
+//     noSpecMessage.textContent = "No specifications available.";
+//     specDiv.appendChild(noSpecMessage);
+//   }
+// }
 
 let sliderContainer = document.querySelector(".slider");
 
