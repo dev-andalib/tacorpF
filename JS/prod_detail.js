@@ -40,7 +40,7 @@ function renderProductDetails(productDetails) {
 
   // List the general details (name, brand, type, etc.)
   const generalDetails = [
-    { label:  "ব্র্যান্ড নাম", value: productDetails["Brand Name"] || "N/A" },
+    // { label:  "ব্র্যান্ড নাম", value: productDetails["Brand Name"] || "N/A" },
     { label: "প্রকার", value: productDetails.Type || "N/A" },
     { label: "চাকা", value: productDetails.Wheel },
     { label: "মূল্য", value: `৳ ${productDetails.Price}` },
